@@ -1,0 +1,11 @@
+name: distributed-cluster
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+    typescript: false
+description: none
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-javascript
